@@ -66,7 +66,7 @@
   
   When I type in number and I press plus and I type in number
   and I press equal and addition is out of range
-  Then result is displyed with modulo E operator and user can see whole number
+  Then result is displyed with power E operator and user can see whole number
   by scrolling in horizontal.
   
 ## Scenario: User pressed another operator after pressing plus operator
