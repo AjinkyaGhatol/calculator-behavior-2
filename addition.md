@@ -1,17 +1,45 @@
-# Addition
+## Addition
 
-Scenario: (describe a scenario here)
+# Scenario: Addition of two positive numbers
   
-  Given (state the initial condition)
+  Given Calculator is turned on.
 
-  When (state the event)
+  When I type in "positive number"
+      and I press "plus"
+      and I press "Positive number"
+      and I press "equal"
   
-  Then (state the effect)
+  Then I see the "added number" in result
 
-Scenario: (describe a scenario here)
+# Scenario: Addition of two negative numbers
   
-  Given (state the initial condition)
+  Given Calculator is turned on.
+
+  When I type in "negative number"
+      and I press "plus"
+      and I press "nagative number"
+      and I press "equal"
   
-  When (state the event)
+  Then I see the "added number" in result
   
-  Then (state the effect)
+# Scenario: Addition of numbers is "out of range"
+  
+  Given Calculator is turned on.
+
+  When I type in "number"
+      and I press "plus"
+      and I press "number"
+      and I press "equal"
+  
+  Then I see the "Positive or negative infinite" in result
+  
+# Scenario: plus is pressed multiple times
+  
+  Given Calculator is turned on.
+
+  When I type in "number"
+      and I press "plus"
+      and I press "plus"
+      and I press "plus"
+  
+  Then I see the "only one plus sign" in result
