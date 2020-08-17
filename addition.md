@@ -1,6 +1,6 @@
-## Addition
+# Addition
 
-# Scenario: Addition of two positive numbers
+## Scenario: Addition of two positive numbers
   
   Given Calculator is turned on.
 
@@ -11,7 +11,7 @@
   
   Then I see the "added number" in result
 
-# Scenario: Addition of two negative numbers
+## Scenario: Addition of two negative numbers
   
   Given Calculator is turned on.
 
@@ -22,7 +22,7 @@
   
   Then I see the "added number" in result
   
-# Scenario: Addition of numbers is "out of range"
+## Scenario: Addition of numbers is "out of range"
   
   Given Calculator is turned on.
 
@@ -33,7 +33,7 @@
   
   Then I see the "Positive or negative infinite" in result
   
-# Scenario: plus is pressed multiple times
+## Scenario: plus is pressed multiple times
   
   Given Calculator is turned on.
 
