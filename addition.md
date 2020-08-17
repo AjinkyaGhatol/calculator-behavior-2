@@ -10,7 +10,7 @@
 ## Scenario: Addition of two negative numbers
   
   Given Calculator is turned on.
-  When I type in first negative number and I press plus and I type in second 
+  When I type in first negative number and I press plus and I type in second
   negative number and I press equal
   Then I see the addition in result
   
