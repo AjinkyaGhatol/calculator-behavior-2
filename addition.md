@@ -17,7 +17,7 @@
 
   When I type in "negative number"
       and I press "plus"
-      and I press "nagative number"
+      and I enter "nagative number"
       and I press "equal"
   
   Then I see the "added number" in result
