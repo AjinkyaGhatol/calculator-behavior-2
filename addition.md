@@ -14,7 +14,7 @@
   and I press equal
   Then I see the addition in result
   
-## Scenario: First operand is positive and second operand is negative.
+## Scenario: First operand is positive and second operand is negative
 
   Given Calculator is turned on. ( user input: 6+-7=)
 
@@ -22,7 +22,7 @@
   and I press equal
   Then calculator will subtract two numbers. Output for given user input: -1
   
-## Scenario: First operand is negative and second operand is positive.
+## Scenario: First operand is negative and second operand is positive
   
   Given Calculator is turned on. ( user input: -7+6=)
 
