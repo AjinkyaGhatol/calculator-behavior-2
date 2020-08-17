@@ -76,4 +76,3 @@
   When User pressed another operator after pressing plus operator
   Then calculator replace plus operator with new operator. Output for given
   user input: 6*
-
