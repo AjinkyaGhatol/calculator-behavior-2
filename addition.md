@@ -15,18 +15,16 @@
   Then I see the addition in result
   
 ## Scenario: First operand is positive and second operand is negative.
-  ( user input: 6+-7=)
-  
-  Given Calculator is turned on.
+
+  Given Calculator is turned on. ( user input: 6+-7=)
 
   When I type in positive number and I press plus and I type in negative number
   and I press equal
   Then calculator will subtract two numbers. Output for given user input: -1
   
 ## Scenario: First operand is negative and second operand is positive.
-  ( user input: -7+6=)
   
-  Given Calculator is turned on.
+  Given Calculator is turned on. ( user input: -7+6=)
 
   When I type in negative number and I press plus and I type in positive number
   and I press equal
