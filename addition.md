@@ -16,9 +16,9 @@
   Given Calculator is turned on.
 
   When I type in "negative number"
-      and I press "plus"
-      and I press "nagative number"
-      and I press "equal"
+      and I press "plus",
+      and I press "nagative number",
+      and I press "equal".
   
   Then I see the "added number" in result
   
