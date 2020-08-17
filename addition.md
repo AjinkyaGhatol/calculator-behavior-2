@@ -30,7 +30,7 @@
   and I press equal
   Then calculator will add two numbers. Output for given user input: -1
   
-## Scenario: plus is pressed multiple times by user
+## Scenario: User pressed plus many times
   
   Given user has turned on calculator.
 
